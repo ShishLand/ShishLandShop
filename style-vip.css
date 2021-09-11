@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700);
+
+body {
+    margin: 0;
+    padding: 0;
+    color:white;
+    background: #34302f;
+      font-family: ubuntu;
+      
+  }
+
+
+  header {
+    display: flex;
+    align-items: center;
+    background: #13f11e ;
+  }
+
+  header img {
+    width: 500px;
+    image-rendering: auto;
+    background: #13f11e;
+    border-radius: 0px;
+    margin: 0 20px 0 5opx;
+  }
+  nav ul {
+  background-color: #13db1d;
+  border-style: solid;
+  border-color: #a0a0a0;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: PapayaWhip;
+}
+  article {
+    background: #34302f;
+    border: 3px solid #a0a0a0;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+  }
